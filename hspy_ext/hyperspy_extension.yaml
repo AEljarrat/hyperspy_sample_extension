@@ -16,6 +16,12 @@ signals:
     lazy: False
     # The module where the signal is located.
     module: hspy_ext.signal
+  MyEELSSpectrum:
+    signal_type: "MyEELSSpectrum"
+    signal_dimension: 1
+    dtype: real
+    lazy: False
+    module: hspy_ext.signal
 
 # 1D ``Component``s that the extension provides.
 components1D:
